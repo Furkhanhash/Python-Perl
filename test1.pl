@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 use Socket;
-my $ADDR_PAT = /^\d+\.\d+\.\d+\.\d+$/;
+my $ADDR_PAT = '157.240.2.35';
 
 while (<>) {
   chomp;
